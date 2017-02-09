@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cgview backboneRadius="200" sequenceLength="54865" height="700" width="700" titleFont="SansSerif, plain, 18" title="Length" globalLabel="auto" moveInnerLabelsToOuter="false" featureThickness="xx-large" tickLength="small" shortTickColor="gray" longTickColor="gray" zeroTickColor="gray" showBorder="false">
+
+<legend position="upper-center" backgroundOpacity="0.8">
+  <legendItem textAlignment="center" font="SansSerif, plain, 16" text="test_seq (54865 bp), gi|15807672|ref|NC_001264.1| Deinococcus radiodurans R1 chromosome 2 (partial sequence, 1-50000 bp) with inserted sequences of tRNAs and rRNAs (5S, 16S, 23S) " />
+</legend>
+
+<legend position="upper-right" font="SanSerif, plain, 10" backgroundOpacity="0.8">
+  <legendItem text="Features" font="SanSerif, plain, 12" />
+  <legendItem text="CDS" drawSwatch="true" swatchColor="red" />
+  <legendItem text="LSU_RRNA" drawSwatch="true" swatchColor="blue" />
+  <legendItem text="SSU_RRNA" drawSwatch="true" swatchColor="orange" />
+  <legendItem text="5S_RRNA" drawSwatch="true" swatchColor="aqua" />
+  <legendItem text="TRNA" drawSwatch="true" swatchColor="green" />
+  <legendItem text="Prom" drawSwatch="true" swatchColor="purple" />
+  <legendItem text="Term" drawSwatch="true" swatchColor="black" />
+</legend>
+
+<featureSlot strand="reverse">
+  <feature color="red" decoration="counterclockwise-arrow" label="CDS">
+    <featureRange start="7283" stop="8746" mouseover="COG1012 NAD-dependent aldehyde dehydrogenases Score: 909" />
+    <featureRange start="9584" stop="10762" mouseover="COG1063 Threonine dehydrogenase and related Zn-dependent dehydrogenases Score: 1005" />
+    <featureRange start="23759" stop="24910" mouseover="COG0737 5-nucleotidase2,3-cyclic phosphodiesterase and related esterases Score: 935" />
+    <featureRange start="53783" stop="54703" mouseover="DR_A0045 hypothetical protein Score: 431" />
+  </feature>
+</featureSlot>
+
+<featureSlot strand="reverse">
+  <feature color="green" decoration="counterclockwise-arrow" label="TRNA">
+    <featureRange start="147" stop="222" mouseover="Arg CCG 0 0 Score: 78.9" />
+  </feature>
+  <feature color="red" decoration="counterclockwise-arrow" label="CDS">
+    <featureRange start="10759" stop="11457" mouseover="COG5637 Predicted integral membrane protein Score: 666" />
+    <featureRange start="16837" stop="18309" mouseover="COG2138 Uncharacterized conserved protein Score: 1191" />
+    <featureRange start="26809" stop="27489" mouseover="DR_A0021 hypothetical protein Score: 342" />
+    <featureRange start="54700" stop="54864" mouseover="DR_A0046 hypothetical protein Score: 91" />
+  </feature>
+</featureSlot>
+
+<featureSlot strand="reverse">
+  <feature color="red" decoration="counterclockwise-arrow" label="CDS">
+    <featureRange start="15342" stop="16844" mouseover="COG0007 Uroporphyrinogen-III methylase Score: 1517" />
+    <featureRange start="23337" stop="23933" mouseover="COG0737 5-nucleotidase2,3-cyclic phosphodiesterase and related esterases Score: 618" />
+  </feature>
+</featureSlot>
+
+<featureSlot strand="reverse">
+  <feature color="purple" decoration="counterclockwise-arrow" label="Prom">
+    <featureRange start="8792" stop="8851" mouseover=" Score: 2.8" />
+    <featureRange start="11697" stop="11756" mouseover=" Score: 2.4" />
+    <featureRange start="27552" stop="27611" mouseover=" Score: 2.3" />
+  </feature>
+  <feature color="black" decoration="counterclockwise-arrow" label="Term">
+    <featureRange start="7191" stop="7241" mouseover=" Score: 14.2" />
+    <featureRange start="9527" stop="9567" mouseover=" Score: 9.0" />
+    <featureRange start="15245" stop="15280" mouseover=" Score: 4.6" />
+    <featureRange start="23277" stop="23322" mouseover=" Score: 9.1" />
+    <featureRange start="26547" stop="26573" mouseover=" Score: -1.0" />
+  </feature>
+</featureSlot>
+
+<featureSlot strand="direct">
+  <feature color="red" decoration="clockwise-arrow" label="CDS">
+    <featureRange start="5410" stop="6300" mouseover="COG1192 ATPases involved in chromosome partitioning Score: 498" />
+    <featureRange start="11704" stop="12609" mouseover="COG1131 ABC-type multidrug transport system, ATPase component Score: 872" />
+    <featureRange start="29671" stop="30585" mouseover="COG2843 Putative enzyme of poly-gamma-glutamate biosynthesis (capsule formation) Score: 568" />
+    <featureRange start="31366" stop="31572" mouseover="COG1804 Predicted acyl-CoA transferasescarnitine dehydratase Score: 136" />
+    <featureRange start="40768" stop="42438" mouseover="COG0489 ATPases involved in chromosome partitioning Score: 964" />
+    <featureRange start="43933" stop="45153" mouseover="COG2244 Membrane protein involved in the export of O-antigen and teichoic acid Score: 616" />
+    <featureRange start="45376" stop="46521" mouseover="DR_A0036 hypothetical protein Score: 356" />
+    <featureRange start="47497" stop="48312" mouseover="COG1216 Predicted glycosyltransferases Score: 378" />
+    <featureRange start="48382" stop="49413" mouseover="COG0438 Glycosyltransferase Score: 280" />
+  </feature>
+  <feature color="blue" decoration="clockwise-arrow" label="LSU_RRNA">
+    <featureRange start="2302" stop="5345" mouseover="BX248583 [R:613128..616171]    Candidatus Blochmannia floridanus   Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales; Enterobacteriaceae; ant endosymbionts; Candidatus Blochmannia. Score: 100.0" />
+  </feature>
+</featureSlot>
+
+<featureSlot strand="direct">
+  <feature color="aqua" decoration="clockwise-arrow" label="5S_RRNA">
+    <featureRange start="521" stop="637" mouseover="AB001721 [D:2735..2851]  5S ribosomal RNA  Leptospira interrogans   Bacteria; Spirochaetes; Spirochaetales; Leptospiraceae; Leptospira. Score: 100.0" />
+  </feature>
+  <feature color="red" decoration="clockwise-arrow" label="CDS">
+    <featureRange start="14681" stop="15316" mouseover="COG2197 Response regulator containing a CheY-like receiver domain and an HTH DNA-binding domain Score: 506" />
+    <featureRange start="19985" stop="20563" mouseover="COG0529 Adenylylsulfate kinase and related kinases Score: 476" />
+    <featureRange start="21422" stop="22585" mouseover="COG2046 ATP sulfurylase (sulfate adenylyltransferase) Score: 1184" />
+    <featureRange start="26003" stop="26542" mouseover="COG2087 Adenosyl cobinamide kinaseadenosyl cobinamide phosphate guanylyltransferase Score: 432" />
+    <featureRange start="27641" stop="29698" mouseover="DR_A0022 hypothetical protein Score: 1755" />
+    <featureRange start="30572" stop="31081" mouseover="DR_A0024 hypothetical protein Score: 311" />
+    <featureRange start="32132" stop="32548" mouseover="COG1804 Predicted acyl-CoA transferasescarnitine dehydratase Score: 362" />
+    <featureRange start="33155" stop="34609" mouseover="COG1509 Lysine 2,3-aminomutase Score: 1388" />
+    <featureRange start="34613" stop="35131" mouseover="DR_A0028 hypothetical protein Score: 400" />
+    <featureRange start="38366" stop="39424" mouseover="COG1209 dTDP-glucose pyrophosphorylase Score: 752" />
+    <featureRange start="39683" stop="40771" mouseover="COG0836 Mannose-1-phosphate guanylyltransferase Score: 942" />
+    <featureRange start="42638" stop="43888" mouseover="COG2148 Sugar transferases involved in lipopolysaccharide synthesis Score: 741" />
+    <featureRange start="46508" stop="47494" mouseover="COG0463 Glycosyltransferases involved in cell wall biogenesis Score: 154" />
+    <featureRange start="51608" stop="52498" mouseover="COG1209 dTDP-glucose pyrophosphorylase Score: 955" />
+    <featureRange start="53039" stop="53779" mouseover="COG1091 dTDP-4-dehydrorhamnose reductase Score: 590" />
+  </feature>
+</featureSlot>
+
+<featureSlot strand="direct">
+  <feature color="green" decoration="clockwise-arrow" label="TRNA">
+    <featureRange start="315" stop="398" mouseover="Leu TAG 0 0 Score: 63.6" />
+  </feature>
+  <feature color="red" decoration="clockwise-arrow" label="CDS">
+    <featureRange start="6297" stop="7178" mouseover="COG1475 Predicted transcriptional regulators Score: 502" />
+    <featureRange start="8802" stop="9533" mouseover="COG2068 Uncharacterized MobA-related protein Score: 302" />
+    <featureRange start="12726" stop="13517" mouseover="COG0842 ABC-type multidrug transport system, permease component Score: 812" />
+    <featureRange start="13674" stop="14684" mouseover="COG4585 Signal transduction histidine kinase Score: 1028" />
+    <featureRange start="18411" stop="19988" mouseover="COG0155 Sulfite reductase, beta subunit (hemoprotein) Score: 1749" />
+    <featureRange start="20553" stop="21317" mouseover="COG0175 3-phosphoadenosine 5-phosphosulfate sulfotransferase (PAPS reductase)FAD synthetase and related enzymes Score: 697" />
+    <featureRange start="22671" stop="23177" mouseover="COG2050 Uncharacterized protein, possibly involved in aromatic compounds catabolism Score: 480" />
+    <featureRange start="25023" stop="26030" mouseover="COG0454 Histone acetyltransferase HPA2 and related acetyltransferases Score: 887" />
+    <featureRange start="31575" stop="32120" mouseover="COG1804 Predicted acyl-CoA transferasescarnitine dehydratase Score: 511" />
+    <featureRange start="35160" stop="36524" mouseover="COG0160 4-aminobutyrate aminotransferase and related aminotransferases Score: 1418" />
+    <featureRange start="36603" stop="38183" mouseover="COG1012 NAD-dependent aldehyde dehydrogenases Score: 1342" />
+    <featureRange start="49410" stop="50513" mouseover="COG0438 Glycosyltransferase Score: 615" />
+    <featureRange start="50517" stop="51611" mouseover="COG1088 dTDP-D-glucose 4,6-dehydratase Score: 960" />
+    <featureRange start="52491" stop="53039" mouseover="COG1898 dTDP-4-dehydrorhamnose 3,5-epimerase and related enzymes Score: 448" />
+  </feature>
+  <feature color="orange" decoration="clockwise-arrow" label="SSU_RRNA">
+    <featureRange start="714" stop="2114" mouseover="EU360170 [D:1..1401]  16S ribosomal RNA  Streptomyces sp. 6   Bacteria; Actinobacteria; Actinobacteridae; Actinomycetales; Streptomycineae; Streptomycetaceae; Streptomyces. Score: 100.0" />
+  </feature>
+</featureSlot>
+
+<featureSlot strand="direct">
+  <feature color="purple" decoration="clockwise-arrow" label="Prom">
+    <featureRange start="18273" stop="18332" mouseover=" Score: 2.7" />
+    <featureRange start="24875" stop="24934" mouseover=" Score: 2.7" />
+    <featureRange start="27454" stop="27513" mouseover=" Score: 1.8" />
+    <featureRange start="33021" stop="33080" mouseover=" Score: 3.5" />
+    <featureRange start="38235" stop="38294" mouseover=" Score: 2.3" />
+    <featureRange start="45197" stop="45256" mouseover=" Score: 6.6" />
+  </feature>
+  <feature color="black" decoration="clockwise-arrow" label="Term">
+    <featureRange start="7203" stop="7253" mouseover=" Score: 9.1" />
+    <featureRange start="9779" stop="9818" mouseover=" Score: 3.8" />
+    <featureRange start="22599" stop="22646" mouseover=" Score: 11.0" />
+    <featureRange start="23229" stop="23282" mouseover=" Score: 0.1" />
+    <featureRange start="26608" stop="26643" mouseover=" Score: -0.7" />
+    <featureRange start="36542" stop="36580" mouseover=" Score: 5.7" />
+    <featureRange start="38198" stop="38258" mouseover=" Score: 6.9" />
+  </feature>
+</featureSlot>
+
+</cgview>
