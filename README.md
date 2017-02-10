@@ -10,6 +10,12 @@ Stothard P, Wishart DS. Circular genome visualization and exploration using CGVi
 
 RUN IN DOCKER
 =============
+Get the respository from Github: 
+
+```
+git clone https://github.com/solovictor/Fgenesb_CGView.git
+cd Fgenesb_CGView
+```
 
 ```
 # Build a contaier
